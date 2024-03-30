@@ -1,0 +1,95 @@
+
+.content {
+    // display: flex;
+    // flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // height: 100em;
+}
+
+
+.musicItems {
+    margin: 2em;
+    padding: 8em 4em;
+    background-color: rgb(79, 79, 79);
+    border-radius: 60px;
+    box-shadow: 4px 4px 2px black;
+    width: 90em;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.itemInside {
+    width: 10em;
+    // height: 10em;
+    // background-color: red;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.image {
+    width: 16em;
+    height: 12em;
+    border-radius: 20px;
+    position: absolute;
+    top: 2em;
+    right: 2em;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1em;
+    margin: 0.2em;
+    border-radius: 20px;
+}
+
+.info {
+    background-color: black;
+    color: white;
+    padding: 0.75em;
+    width: 10em;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.header {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    font-size: 3em;
+}
+
+.genre {
+    text-decoration: none;
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+    font-size: 2em;
+}
+
+.inp {
+    background-color: rgb(51, 46, 46);
+    border: none;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.dropdown {
+    background-color: rgb(51, 46, 46);
+    border: none;
+    padding: 0.5em;
+    border-radius: 10px;
+    color: white;
+}
